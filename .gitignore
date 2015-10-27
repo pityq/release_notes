@@ -21,3 +21,5 @@
 /project/target/
 /project/project/target
 /build-sbt/
+**/target
+
