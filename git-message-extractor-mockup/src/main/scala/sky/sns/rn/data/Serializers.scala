@@ -10,7 +10,6 @@ object Serializers {
   }
 
   def commitSerializer() = FieldSerializer[Commit](
-    renameTo("http_url", "url") orElse "",
-    renameFrom("url", "http_url")
-  )
+    renameTo("http_url", "url"),
+    renameFrom("url", "http_url"))
 }
