@@ -10,7 +10,7 @@ sealed trait Response
 
 abstract class JsonResponse extends Response
 
-case class Commit(sha: String, message: String, author: Author, committer: Committer, url: Option[String] = None) extends JsonResponse
+case class Commit(sha: String, message: String, author: Author, committer: Committer, url: Option[String] = None)
 
 case class Author(name: String, email: String, date: Long)
 
