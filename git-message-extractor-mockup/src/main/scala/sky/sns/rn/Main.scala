@@ -1,5 +1,6 @@
 package sky.sns.rn
 
+import sky.sns.rn.data.Commit
 import sky.sns.rn.http.{AsyncHttpClient, HttpConnections, SyncHttpClient}
 
 import scala.concurrent.ExecutionContext.Implicits.global
